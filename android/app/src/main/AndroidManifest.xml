@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="Easy Sell"
+        android:label="Amougdoul Stock"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

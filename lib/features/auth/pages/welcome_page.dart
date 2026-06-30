@@ -23,9 +23,9 @@ class WelcomePage extends StatelessWidget {
                 child: Column(
                   children: [
                     AuthHeader(
-                      title: 'Welcome to EasySell POS',
+                      title: 'Welcome to Amougdoul Stock Manager',
                       subtitle:
-                          'Your complete point-of-sale solution for small businesses',
+                          'Your complete stock management solution for small businesses',
                       showLogo: true,
                     ),
                     const SizedBox(height: AppSpacing.xl),
@@ -136,7 +136,7 @@ class WelcomePage extends StatelessWidget {
       child: Column(
         children: [
           AppText(
-            'Why Choose EasySell POS?',
+            'Why Choose Amougdoul Stock Manager?',
             variant: AppTextVariant.titleLarge,
             color: AppColors.onPrimaryContainer,
             textAlign: TextAlign.center,

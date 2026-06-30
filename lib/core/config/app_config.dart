@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppConfig {
-  static const String appName = 'EasySell POS';
+  static const String appName = 'Amougdoul Stock';
 
   static const String appVersion = '1.0.0';
 
   static const String buildNumber = '1';
 
-  static const String appDescription = 'Simple Point of Sale for Small Business';
+  static const String appDescription = 'Simple Point';
 
   static const String packageName = 'com.easysell.pos';
 

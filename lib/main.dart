@@ -23,14 +23,20 @@ void main() async {
 
   await FirebaseService.initialize();
 
-  runApp(const ProviderScope(child: EasySellPOSApp()));
+  // Updated to launch your newly named app class
+  runApp(const ProviderScope(child: AmougdoulStockApp()));
 }
 
-class EasySellPOSApp extends StatelessWidget {
-  const EasySellPOSApp({super.key});
+// Renamed the class to match your new brand
+class AmougdoulStockApp extends StatelessWidget {
+  const AmougdoulStockApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const AuthRouter();
+    // Wrapped your router in a MaterialApp to set the title
+    return const MaterialApp(
+      title: 'Amougdoul Stock',
+      home: AuthRouter(),
+    );
   }
 }

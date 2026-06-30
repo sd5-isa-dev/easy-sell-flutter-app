@@ -52,7 +52,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                 ),
               ),
               AuthFooter(
-                primaryText: 'New to EasySell POS?',
+                primaryText: 'New to Amougdoul Stock Manager?',
                 actionText: 'Create Account',
                 onAction: () => context.go('/register'),
                 links: [

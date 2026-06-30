@@ -34,7 +34,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
             children: [
               AuthHeader(
                 title: 'Create Account',
-                subtitle: 'Join thousands of businesses using EasySell POS',
+                subtitle: 'Amougdoul Stock Manager',
                 showLogo: true,
                 onBack: () {
                   if (context.canPop()) {
@@ -201,7 +201,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
               ),
               const SizedBox(height: AppSpacing.sm),
               AppText(
-                'By using EasySell POS, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service.',
+                'By using Amougdoul Stock Manager, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service.',
                 variant: AppTextVariant.bodyMedium,
                 color: AppColors.textPrimary,
               ),
@@ -213,7 +213,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
               ),
               const SizedBox(height: AppSpacing.sm),
               AppText(
-                'EasySell POS is designed for legitimate business purposes. You may not use the service for any illegal or unauthorized activities.',
+                'Amougdoul Stock Manager is designed for legitimate business purposes. You may not use the service for any illegal or unauthorized activities.',
                 variant: AppTextVariant.bodyMedium,
                 color: AppColors.textPrimary,
               ),
